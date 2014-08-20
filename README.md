@@ -4,6 +4,8 @@ The Clojure Koans are a fun and easy way to get started with Clojure - no
 experience assumed or required.  Just follow the instructions below to start
 making tests pass!
 
+**All koans are solved.**
+
 
 ### Getting Started
 
@@ -112,42 +114,6 @@ And if those still don't make sense:
 will show you what those commands mean.
 
 You can exit the REPL with `CTRL-d` on any OS.
-
-
-### Contributing
-
-Patches are encouraged!  Make sure the answer sheet still passes
-(`lein koan test`), and send a pull request.
-
-The file ideaboard.txt has lots of good ideas for new koans to start, or things
-to add to existing koans.  So write some fun exercises, add your answers to
-`resources/koans.clj`, and we'll get them in there!
-
-Please follow the guidelines in
-http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html for
-commmit messages, and put your code in a feature branch (not master) before
-making the pull request. This makes patches easier to review.
-
-Feel free to contact me (Colin Jones / trptcolin) on Github or elsewhere if you
-have any questions or want more direction before you start pitching in.
-
-
-### Contributors
-
-https://github.com/functional-koans/clojure-koans/contributors
-
-
-### Credits
-
-These exercises were started by [Aaron Bedra](http://github.com/abedra) of
-[Relevance, Inc.](http://github.com/relevance) in early 2010, as a learning
-tool for newcomers to functional programming. Aaron's macro-fu makes these
-koans extremely simple and fun to use, and to improve upon, and without
-Relevance's initiative, this project would not exist.
-
-Using the [koans](http://en.wikipedia.org/wiki/koan) metaphor as a tool for
-learning a programming language started with the
-[Ruby Koans](http://rubykoans.com) by [EdgeCase](http://github.com/edgecase).
 
 
 ### License
