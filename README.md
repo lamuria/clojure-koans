@@ -1,4 +1,4 @@
-# Clojure Koans
+# Clojure Koans Solutions
 
 The Clojure Koans are a fun and easy way to get started with Clojure - no
 experience assumed or required.  Just follow the instructions below to start
@@ -58,62 +58,6 @@ If you're running from a checkout using lein 2, run the koans via
 It's an auto-runner, so as you save your files with the correct answers, it will
 advance you to the next koan or file (conveniently, all files are prefixed with
 the sequence that you should follow).
-
-You'll see something like this:
-
-    Now meditate on /home/colin/Projects/clojure-koans/src/koans/01_equalities.clj:3
-    ---------------------
-    Assertion failed!
-    We shall contemplate truth by testing reality, via equality.
-    (= __ true)
-
-The output is telling you that you have a failing test in the file named
-`01_equalities.clj`, on line 3. So you just need to open that file up and make
-it pass!  You'll always be filling in the blanks to make tests pass.
-Sometimes there could be several correct answers (or even an infinite number):
-any of them will work in these cases. Some tests will pass even if you replace
-the blanks with whitespace (or nothing) instead of the expected answer. Make sure
-you give one correct expression to replace each blank.
-
-The koans differ from normal TDD in that the tests are already written for you,
-so you'll have to pay close attention to the failure messages, because up until
-the very end, making a test pass just means that the next failure message comes
-up.
-
-While it might be easy (especially at first) to just fill in the blanks making
-things pass, you should work thoughtfully, making sure you understand why the
-answer is what it is.  Enjoy your path to Clojure enlightenment!
-
-
-### Trying more things out
-
-There's a REPL (Read-Evaluate-Print Loop) included in the Clojure Koans. Just
-run:
-
-`script/repl` on Mac/\*nix
-
-`script\repl` on Windows
-
-If you're on lein 2, `lein repl` is what you want instead.
-
-Here are some interesting commands you might try, once you're in a running REPL:
-
-```clojure
-(find-doc "vec")
-(find-doc #"vec$")
-(doc vec)
-```
-
-And if those still don't make sense:
-
-```clojure
-(doc doc)
-(doc find-doc)
-```
-
-will show you what those commands mean.
-
-You can exit the REPL with `CTRL-d` on any OS.
 
 
 ### License
